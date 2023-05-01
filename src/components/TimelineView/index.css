@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 75%;
+  }
+}
+
+.timeline-title1 {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #171f46;
+}
+
+.timeline-title2 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #2b237c;
+}
+
+.chrono-container {
+  width: 100%;
+  height: 80vh;
+}

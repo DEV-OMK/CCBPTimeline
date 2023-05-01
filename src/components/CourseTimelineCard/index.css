@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.course-header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .course-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.course-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bolder;
+  color: #171f46;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.clock-icon {
+  color: #171f46;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.duration {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  color: #171f46;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500px;
+  color: #1e293b;
+  margin-top: 0px;
+}
+
+.tags-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tag-item {
+  background-color: rgb(214, 235, 253);
+  border-radius: 4px;
+  padding: 0px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.tag {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+  margin: 0px;
+}
